@@ -15,4 +15,5 @@ cat("i.Random variable(X): Number of customer calls recieve in one hour")
 cat("ii.Poisson Distribution: lambda=12")
 
 cat("iii.Probability that exactly 15 calls are received in an hour: ",
+
     dpois(15,12),"\n")
